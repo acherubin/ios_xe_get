@@ -12,6 +12,6 @@ x = requests.get("https://192.168.10.3/restconf/data/ietf-interfaces:interfaces/
 
 #x = requests.get("https://192.168.10.3/restconf/", auth=basic, verify=False)
 #print(x.status_code)
-#print(x.text)
+print(x.text)
 
-print (x.json())
+#print (x.json())
